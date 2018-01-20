@@ -11,7 +11,7 @@ robot.txt content:
 /sisi
 /beer
 
-Since all subdirectories and box name are drinks, it's easy to guess `/fristy` to be a subdirectories too.
+Since all subdirectories and box name are drinks, it's easy to guess `/fristy` to be a subdirectory too.
 
 ## Exploit
 
@@ -32,8 +32,10 @@ Read admin folder can further get crypted password for user `admin` and `fristig
 change to user `fristigod` by using `su` and found an executable file name `doCom` under a hidden folder.
 By running `sudo -l` will give us following result:
 
+```
 User fristigod may run the following commands on this host:
     (fristi : ALL) /var/fristigod/.secret_admin_stuff/doCom
+```
 
 which means we can run `doCom` as user `fristi`. Therefore running the following command will give us root access:
 
