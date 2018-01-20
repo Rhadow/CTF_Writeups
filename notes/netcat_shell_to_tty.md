@@ -1,6 +1,6 @@
+```
 python -c 'import pty; pty.spawn("/bin/bash")'
 Ctrl-Z
-
 
 =======Optional=======
 echo $TERM (result a)
@@ -16,3 +16,4 @@ export SHELL=bash
 export TERM=(result a from above)
 stty row (row from result b) col (col from result b)
 ======================
+```
