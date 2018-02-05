@@ -9,3 +9,6 @@ https://speakerdeck.com/knaps/escape-from-shellcatraz-breaking-out-of-restricted
 
 Transfer files between windows and linux:
 https://blog.ropnop.com/transferring-files-from-kali-to-windows/
+
+Pivoting:
+https://pentest.blog/explore-hidden-networks-with-double-pivoting/
