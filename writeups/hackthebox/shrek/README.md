@@ -1,3 +1,4 @@
+```
 Dirb:
 
 ---- Scanning URL: http://10.10.10.47/ ----
@@ -36,7 +37,7 @@ PrinceCharming
 J1x4MDFceGQzXHhlMVx4ZjJceDE3VCBceGQwXHg4YVx4ZDZceGUyXHhiZFx4OWVceDllflAoXHhmN1x4ZTlceGE1XHhjMUtUXHg5YUlceGRkXFwhXHg5NXRceGUxXHhkNnBceGFhInUyXHhjMlx4ODVGXHgxZVx4YmNceDAwXHhiOVx4MTdceDk3XHhiOFx4MGJceGM1eVx4ZWM8Sy1ncDlceGEwXHhjYlx4YWNceDlldFx4ODl6XHgxM1x4MTVceDk0RG5ceGViXHg5NVx4MTlbXHg4MFx4ZjFceGE4LFx4ODJHYFx4ZWVceGU4Q1x4YzFceDE1XHhhMX5UXHgwN1x4Y2N7XHhiZFx4ZGFceGYwXHg5ZVx4MWJoXCdRVVx4ZTdceDE2M1x4ZDRGXHhjY1x4YzVceDk5dyc=
 
 It turns out this huge string is seccure ciphered, decrypt with:
-seccure.decrypt(ciphertext, b'my private key')
+seccure.decrypt(ciphertext, b'PrinceCharming')
 
 will get result:
 'The password for the ssh file is: shr3k1sb3st! and you have to ssh in as: sec\n'
@@ -57,3 +58,4 @@ In /usr/src folder, "chown *" is being executed every 5 minutes. All we need to 
 References:
 https://ctf-wiki.github.io/ctf-wiki/misc/audio/index.html
 https://www.defensecode.com/public/DefenseCode_Unix_WildCards_Gone_Wild.txt
+```
